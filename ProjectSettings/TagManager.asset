@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Country
+  - Ocean
+  - BallCollisionHandler
+  - CountryBall
+  - AircraftNearTrigger
+  - Cell
+  - Squad
+  - Grid
+  - BattleBuilding
+  - Unit
+  - RocketPlane
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Territory
+  - Water
+  - UI
+  - Game
+  - WorldUI
+  - PP
+  - GameFront
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 2908358737
+    locked: 0

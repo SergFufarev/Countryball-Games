@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d5f2d44be0dd814ca078c077e842080, type: 3}
+  m_Name: Army
+  m_EditorClassIdentifier: 
+  localisationKey: ARMY_CAPTION_GROUND
+  UpgradeType: 1
+  UpgradeDataList:
+  - Description: ARMY_UPGRADE_GROUND_00
+    Cost: 300
+    AmountLevels: 3
+    CurrentLevel: 0
+    EffectPerLevel: 0.05
+    Icon: {fileID: 21300000, guid: 87ab25a62d0299e43b7f934b84dcaf53, type: 3}
+  - Description: ARMY_UPGRADE_GROUND_01
+    Cost: 1200
+    AmountLevels: 3
+    CurrentLevel: 0
+    EffectPerLevel: 0.05
+    Icon: {fileID: 21300000, guid: 384716ba6d05c8e4fab5f0e446e4ea23, type: 3}
+  - Description: ARMY_UPGRADE_GROUND_02
+    Cost: 3500
+    AmountLevels: 3
+    CurrentLevel: 0
+    EffectPerLevel: 0.05
+    Icon: {fileID: 21300000, guid: 05af333d700d89d40b98661aae4b7213, type: 3}
+  - Description: ARMY_UPGRADE_GROUND_03
+    Cost: 6000
+    AmountLevels: 3
+    CurrentLevel: 0
+    EffectPerLevel: 0.05
+    Icon: {fileID: 21300000, guid: 77e9f18495aadc441bfd2f984179b2ec, type: 3}
+  - Description: ARMY_UPGRADE_GROUND_04
+    Cost: 10500
+    AmountLevels: 3
+    CurrentLevel: 0
+    EffectPerLevel: 0.05
+    Icon: {fileID: 21300000, guid: d9a4f819ff167b14d8a45f458ec4cb63, type: 3}
+  - Description: ARMY_UPGRADE_GROUND_05
+    Cost: 14000
+    AmountLevels: 3
+    CurrentLevel: 0
+    EffectPerLevel: 0.05
+    Icon: {fileID: 21300000, guid: 8a303da374ae1d94b949537e6e9fc850, type: 3}
+  - Description: ARMY_UPGRADE_GROUND_06
+    Cost: 20000
+    AmountLevels: 3
+    CurrentLevel: 0
+    EffectPerLevel: 0.05
+    Icon: {fileID: 21300000, guid: 375b5475fc0f58f469be0376c7c2a421, type: 3}
+  - Description: ARMY_UPGRADE_GROUND_07
+    Cost: 28200
+    AmountLevels: 3
+    CurrentLevel: 0
+    EffectPerLevel: 0.05
+    Icon: {fileID: 21300000, guid: de596aaa045597a41b4b388a0ae5dbc1, type: 3}
+  - Description: ARMY_UPGRADE_GROUND_08
+    Cost: 42000
+    AmountLevels: 3
+    CurrentLevel: 0
+    EffectPerLevel: 0.05
+    Icon: {fileID: 21300000, guid: 39bcdca74c9e1584f92231ddc4ec7278, type: 3}
+  - Description: ARMY_UPGRADE_GROUND_09
+    Cost: 69600
+    AmountLevels: 3
+    CurrentLevel: 0
+    EffectPerLevel: 0.05
+    Icon: {fileID: 21300000, guid: e9ffd18990192104baeaa76f6add67f2, type: 3}
+  UpgradeDataListRegionVariant:
+  - Description: ARMY_UPGRADE_GROUND_00
+    Cost: 100
+    AmountLevels: 3
+    CurrentLevel: 0
+    EffectPerLevel: 10
+    Icon: {fileID: 21300000, guid: c78c9136e00f36b4d9e4fafc5213d1dd, type: 3}
+  - Description: ARMY_UPGRADE_GROUND_01
+    Cost: 400
+    AmountLevels: 3
+    CurrentLevel: 0
+    EffectPerLevel: 10
+    Icon: {fileID: 21300000, guid: c77519e44708f9441bb9acafe7309991, type: 3}
+  - Description: ARMY_UPGRADE_GROUND_02
+    Cost: 1000
+    AmountLevels: 3
+    CurrentLevel: 0
+    EffectPerLevel: 10
+    Icon: {fileID: 21300000, guid: 39518b6ff81f2714bab6e858a96c129e, type: 3}
+  - Description: ARMY_UPGRADE_GROUND_03
+    Cost: 2000
+    AmountLevels: 3
+    CurrentLevel: 0
+    EffectPerLevel: 10
+    Icon: {fileID: 21300000, guid: cbd4ea5c475902e4e8a857b9cc69d8d3, type: 3}
+  - Description: ARMY_UPGRADE_GROUND_04
+    Cost: 3000
+    AmountLevels: 3
+    CurrentLevel: 0
+    EffectPerLevel: 10
+    Icon: {fileID: 21300000, guid: 62a19c914da5f84478164e2ff78e01fd, type: 3}
+  - Description: ARMY_UPGRADE_GROUND_05
+    Cost: 4000
+    AmountLevels: 3
+    CurrentLevel: 0
+    EffectPerLevel: 10
+    Icon: {fileID: 21300000, guid: cc6f7b4b85558384abb9a05f38683055, type: 3}
+  - Description: ARMY_UPGRADE_GROUND_06
+    Cost: 5000
+    AmountLevels: 3
+    CurrentLevel: 0
+    EffectPerLevel: 10
+    Icon: {fileID: 21300000, guid: 4f5be9e49cb23ba419a8a6d7aa772d38, type: 3}
+  - Description: ARMY_UPGRADE_GROUND_07
+    Cost: 6000
+    AmountLevels: 3
+    CurrentLevel: 0
+    EffectPerLevel: 10
+    Icon: {fileID: 21300000, guid: e4d37f347a65ea7478a3d7434bc5ad26, type: 3}
+  - Description: ARMY_UPGRADE_GROUND_08
+    Cost: 7000
+    AmountLevels: 3
+    CurrentLevel: 0
+    EffectPerLevel: 10
+    Icon: {fileID: 21300000, guid: 1a7bab727d291324887f1fc23c75c6d6, type: 3}
+  - Description: ARMY_UPGRADE_GROUND_09
+    Cost: 8000
+    AmountLevels: 3
+    CurrentLevel: 0
+    EffectPerLevel: 10
+    Icon: {fileID: 21300000, guid: caedc8c5d8f38a84aace900b681360c0, type: 3}

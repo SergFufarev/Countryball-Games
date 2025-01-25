@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e2cc71d579948b9be3e115879642a2d, type: 3}
+  m_Name: CommonConfig
+  m_EditorClassIdentifier: 
+  AmountMoneyOnStart: 1600
+  AmountStarsOnStart: 100
+  UpgradesForCapturedRegions:
+  - Description: 
+    Cost: 10
+    AmountLevels: 1
+    CurrentLevel: 0
+    EffectPerLevel: 10
+    Icon: {fileID: 0}
+  - Description: 
+    Cost: 400
+    AmountLevels: 1
+    CurrentLevel: 0
+    EffectPerLevel: 10
+    Icon: {fileID: 0}
+  - Description: 
+    Cost: 1000
+    AmountLevels: 1
+    CurrentLevel: 0
+    EffectPerLevel: 10
+    Icon: {fileID: 0}
+  - Description: 
+    Cost: 2000
+    AmountLevels: 1
+    CurrentLevel: 0
+    EffectPerLevel: 10
+    Icon: {fileID: 0}
+  - Description: 
+    Cost: 3000
+    AmountLevels: 1
+    CurrentLevel: 0
+    EffectPerLevel: 10
+    Icon: {fileID: 0}
+  - Description: 
+    Cost: 4000
+    AmountLevels: 1
+    CurrentLevel: 0
+    EffectPerLevel: 10
+    Icon: {fileID: 0}
+  - Description: 
+    Cost: 5000
+    AmountLevels: 1
+    CurrentLevel: 0
+    EffectPerLevel: 10
+    Icon: {fileID: 0}
+  - Description: 
+    Cost: 6000
+    AmountLevels: 1
+    CurrentLevel: 0
+    EffectPerLevel: 10
+    Icon: {fileID: 0}
+  - Description: 
+    Cost: 7000
+    AmountLevels: 1
+    CurrentLevel: 0
+    EffectPerLevel: 10
+    Icon: {fileID: 0}
+  - Description: 
+    Cost: 8000
+    AmountLevels: 1
+    CurrentLevel: 0
+    EffectPerLevel: 10
+    Icon: {fileID: 0}
+  CoinsForAdsRewardValues: b40000002c010000a4010000580200000c03000084030000
+  CoinsForAdWaitTime:
+    hours: 0
+    minutes: 5
+    seconds: 0
+  TradeEffectMultiplier: 2
+  GamePlusIncomeBonus: 10
+  GamePlusCostBonus: 20
+  IntelligenceTimes: 050000000500000005000000060000000600000006000000060000000600000007000000070000000700000007000000080000000800000008000000080000000900000009000000090000000a0000000a0000000a0000000b0000000b0000000b0000000c0000000c0000000d0000000d0000000e0000000e0000000f0000000f0000001000000010000000110000001100000012000000120000001300000014000000140000001500000016000000170000001800000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000210000002200000024000000250000002600000027000000290000002a0000002c0000002d0000002f00000030000000320000003400000036000000380000003a0000003c0000003e00000040000000420000004400000047000000490000004c0000004e0000005100000054000000570000005a0000005d0000006000000064000000670000006b0000006f00000072000000760000007b0000007f00000083000000880000008d00000092000000970000009c000000a1000000a7000000ad000000b3000000b9000000c0000000c6000000cd000000d5000000dc000000e4000000ec000000f4000000fc000000050100000e01000018010000220100002c01000036010000410100004c0100005801000064010000710100007d0100008b01000099010000a7010000b6010000c5010000d5010000e5010000f6010000080200001a0200002d0200004002000055020000690200007f02000095020000ad020000c5020000dd020000f7020000120300002d0300004a0300006703000085030000a5030000c6030000e80300000a0400002f040000540400007b040000a3040000cd040000f8040000240500005205000082050000b3050000e60500001b060000520600008b060000c5060000020700004107000082070000c50700000a080000520800009d080000ea0800003a0900008d090000e20900003b0a0000970a0000f50a0000580b0000bd0b0000260c0000930c0000040d0000790d0000f10d0000
+  firstSessionFon: {fileID: 21300000, guid: eb531f367c40f4381889cea89561d24e, type: 3}
+  loadFons:
+  - {fileID: 21300000, guid: 342137d886a3948c4b082ad9f0eed505, type: 3}
+  - {fileID: 21300000, guid: a1c06e83ea18e4604b75741a4610bb66, type: 3}
+  WorldEventPeriod:
+    hours: 0
+    minutes: 15
+    seconds: 0
+  WorldEventMessages:
+    keyValues:
+    - key: 1
+      value: Buyers have appeared on the world market. The profit from sales increased
+        by 15%!
+    - key: 2
+      value: Someone spread rumors, because of which trade in the countries came
+        to a loss. Sales fell by 15%
+    - key: 3
+      value: The content of the army has risen in price! Prices increased by 10%
+    - key: 4
+      value: The content of the army has become cheaper! Maintenance prices have
+        fallen by 10%
+    - key: 5
+      value: More planes in the air! We urgently need to shoot them down for extra
+        coins!
+  WorldEventValues:
+    keyValues:
+    - key: 1
+      value: 15
+    - key: 2
+      value: 15
+    - key: 3
+      value: 10
+    - key: 4
+      value: 10
+    - key: 5
+      value: 33

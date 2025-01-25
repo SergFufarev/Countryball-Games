@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mission
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 423a47b3db4c44ce29188e579bc6f9db, type: 3}
+    totalSpriteSurfaceArea: 366414
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 80f3f5b7b761340ab944710ab1495c17, type: 3}
+  - {fileID: 21300000, guid: 2988d289b268e47bfaeb4c9a2b6852cf, type: 3}
+  - {fileID: 21300000, guid: 9223fe3b942034ebcb194ceed5ddcfc4, type: 3}
+  - {fileID: 21300000, guid: c8d4dcec1140c4f0f836d2f951618c75, type: 3}
+  - {fileID: 21300000, guid: 9fac80adee0cf4e7c974930ef9d5f71a, type: 3}
+  - {fileID: 21300000, guid: e4cbd6dd50a0845d4ad702dc8e53e9dc, type: 3}
+  - {fileID: 21300000, guid: 00ef2afd1a4fc407f87120fc7330e821, type: 3}
+  - {fileID: 21300000, guid: d31b92af9dadd40b1977f7db787692a3, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - mission_bg
+  - clear_off
+  - clear_on
+  - bg_object_02
+  - title_text_mission
+  - bg_object_01
+  - line
+  - envelope
+  m_Tag: Mission
+  m_IsVariant: 0

@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Score
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 61c59160614c5430ca7a9be079e8b3ed, type: 3}
+    totalSpriteSurfaceArea: 1696645
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 31f6d362dabaf4bdea9efef1024432a9, type: 3}
+  - {fileID: 21300000, guid: 173be3a248da34afcb40d3c318945bf9, type: 3}
+  - {fileID: 21300000, guid: ecd71d846a0dc40b2b563982bf76c578, type: 3}
+  - {fileID: 21300000, guid: 4e02f526360d6411aa49b36b11b6916f, type: 3}
+  - {fileID: 21300000, guid: 16748346e02884a629cd6dfad57d3858, type: 3}
+  - {fileID: 21300000, guid: de4ea05660ac7498eba7f7ff29f1c8d6, type: 3}
+  - {fileID: 21300000, guid: e133de39767624a149d3a91d21a1582e, type: 3}
+  - {fileID: 21300000, guid: 6c409d79284d143bbbbe2db5504b6d3b, type: 3}
+  - {fileID: 21300000, guid: 5e786799dc7f94d4d9993d9e8410eff0, type: 3}
+  - {fileID: 21300000, guid: 28e501c9023e04c489c8b526dc72de53, type: 3}
+  - {fileID: 21300000, guid: cd5588c940bfd42eb8d6dcd9c9683831, type: 3}
+  - {fileID: 21300000, guid: 4eace1d9eb8ae400c8a046b3e66d4361, type: 3}
+  - {fileID: 21300000, guid: 8d38247a8a2234294acef22a4c044687, type: 3}
+  - {fileID: 21300000, guid: 233df99bb386d46a2a0cceb13d80b0bc, type: 3}
+  - {fileID: 21300000, guid: c22599acb0fdc451b88e0bdcee692a7d, type: 3}
+  - {fileID: 21300000, guid: 309f774ed9e3748de8097fb657eb213b, type: 3}
+  - {fileID: 21300000, guid: bb3af4ae7d56d49d5bd718424c2e4f57, type: 3}
+  - {fileID: 21300000, guid: d0bcb67f1f9ec4c02875413312e9fed5, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - title_text_victory
+  - bulletmark_effect_01
+  - gun_smoke_right
+  - btn_home_f
+  - btn_restart_f
+  - star_on
+  - star_off
+  - victory_bg
+  - btn_next_f
+  - bulletmark_effect_02
+  - gun_left
+  - btn_restart_n
+  - victory_effect
+  - btn_home_n
+  - gun_smoke_left
+  - icon_coin
+  - gun_right
+  - btn_next_n
+  m_Tag: Score
+  m_IsVariant: 0

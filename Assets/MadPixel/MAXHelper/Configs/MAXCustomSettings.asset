@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80001126de4c827458a1977b489ab4e8, type: 3}
+  m_Name: MAXCustomSettings
+  m_EditorClassIdentifier: 
+  bUseRewardeds: 1
+  bUseInters: 1
+  bUseBanners: 1
+  bShowMediationDebugger: 0
+  SDKKey: R5ZeDg0t8rV5BQ4h_72SUwzDKUOipd1Ju_H3yph9eKZV6NZBDqI_rLKZmyFWiyFWdOn4ITSHwMdob2TtWHuzio
+  BannerID: 53ca3ad41e91dd57
+  InterstitialID: 26b723d7ce2a4d2d
+  RewardedID: bdb98350d7da5163
+  BannerID_IOS: testUnitID_B_ios
+  InterstitialID_IOS: testUnitID_I_ios
+  RewardedID_IOS: testUnitID_R_ios
+  BannerBackground: {r: 0, g: 0, b: 0, a: 1}

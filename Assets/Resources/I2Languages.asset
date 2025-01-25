@@ -1,0 +1,550 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f0b0c553be8edd4682e9180fdd13e37, type: 3}
+  m_Name: I2Languages
+  m_EditorClassIdentifier: 
+  mSource:
+    UserAgreesToHaveItOnTheScene: 0
+    UserAgreesToHaveItInsideThePluginsFolder: 0
+    GoogleLiveSyncIsUptoDate: 1
+    mTerms:
+    - Term: BUTTON_SELECT
+      TermType: 0
+      Description: 
+      Languages:
+      - Select
+      - "\u0412\u044B\u0431\u0440\u0430\u0442\u044C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GAME_LABEL_MONEY_PER_SECOND
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Gold/Sec:'
+      - "\u0417\u043E\u043B\u043E\u0442\u043E/\u0421\u0435\u043A:"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: SELECT_COUNTRY_LABEL_HEADER
+      TermType: 0
+      Description: 
+      Languages:
+      - Select country
+      - "\u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u0441\u0442\u0440\u0430\u043D\u0443"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: SETTINGS_LABEL_MUSIC
+      TermType: 0
+      Description: 
+      Languages:
+      - Music
+      - "\u041C\u0443\u0437\u044B\u043A\u0430"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: SETTINGS_LABEL_VOICES
+      TermType: 0
+      Description: 
+      Languages:
+      - Voices
+      - "\u0413\u043E\u043B\u043E\u0441\u0430"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: SETTINGS_LABEL_VIBRATION
+      TermType: 0
+      Description: 
+      Languages:
+      - Vibration
+      - "\u0412\u0438\u0431\u0440\u0430\u0446\u0438\u044F"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: SETTINGS_LABEL_HEADER
+      TermType: 0
+      Description: 
+      Languages:
+      - Settings
+      - "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: OFFLINE_REWARD_LABEL_HEADER
+      TermType: 0
+      Description: 
+      Languages:
+      - Reward
+      - "\u041D\u0430\u0433\u0440\u0430\u0434\u0430"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: OFFLINE_REWARD_LABEL_CLAIM
+      TermType: 0
+      Description: 
+      Languages:
+      - Claim
+      - "\u041F\u043E\u043B\u0443\u0447\u0438\u0442\u044C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: UPGRADE_ARMY_LABEL_BUY_MAXIMAL
+      TermType: 0
+      Description: 
+      Languages:
+      - MAX
+      - "\u041A\u0443\u043F\u0438\u0442\u044C \u043D\u0430 \u0432\u0441\u0435"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: UPGRADE_ARMY_LABEL_BUY_ONCE
+      TermType: 0
+      Description: 
+      Languages:
+      - Buy
+      - "\u041A\u0443\u043F\u0438\u0442\u044C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: UPGRADE_ARMY_LABEL_HEADER
+      TermType: 0
+      Description: 
+      Languages:
+      - Military force
+      - "\u0412\u043E\u0435\u043D\u043D\u0430\u044F \u0441\u0438\u043B\u0430"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: UPGRADE_FACTORY_LABEL_HEADER
+      TermType: 0
+      Description: 
+      Languages:
+      - Factory
+      - "\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u043E"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: UPGRADE_FACTORY_LABEL_DESCRIPTION
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Add gold / sec: 0.2'
+      - "\u0423\u0432\u0435\u043B\u0438\u0447\u0438\u0432\u0430\u0435\u0442 \u0437\u043E\u043B\u043E\u0442\u043E
+        / \u0441\u0435\u043A\u0443\u043D\u0434\u0443: 0,2"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_CAPTION_GROUND
+      TermType: 0
+      Description: 
+      Languages:
+      - Army
+      - "\u0410\u0440\u043C\u0438\u044F"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_CAPTION_AIR
+      TermType: 0
+      Description: 
+      Languages:
+      - Air force
+      - "\u0410\u0432\u0438\u0430\u0446\u0438\u044F"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_CAPTION_NAVY
+      TermType: 0
+      Description: 
+      Languages:
+      - Navy
+      - "\u0424\u043B\u043E\u0442"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_CAPTION_RESISTANCE
+      TermType: 0
+      Description: 
+      Languages:
+      - Resistance
+      - "\u0421\u043E\u043F\u0440\u043E\u0442\u0438\u0432\u043B\u0435\u043D\u0438\u0435"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_GROUND_01
+      TermType: 0
+      Description: 
+      Languages:
+      - Snipers
+      - "\u0421\u043D\u0430\u0439\u043F\u0435\u0440\u044B"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_GROUND_02
+      TermType: 0
+      Description: 
+      Languages:
+      - Mortar mans
+      - "\u041C\u0438\u043D\u043E\u043C\u0451\u0442\u0447\u0438\u043A\u0438"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_GROUND_03
+      TermType: 0
+      Description: 
+      Languages:
+      - Hummer
+      - "\u0425\u0430\u043C\u043C\u0435\u0440"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_GROUND_04
+      TermType: 0
+      Description: 
+      Languages:
+      - APC
+      - "\u0411\u0422\u0420"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_GROUND_00
+      TermType: 0
+      Description: 
+      Languages:
+      - Infantry
+      - "\u041F\u0435\u0445\u043E\u0442\u0438\u043D\u0446\u044B"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_GROUND_05
+      TermType: 0
+      Description: 
+      Languages:
+      - Tank
+      - "\u0422\u0430\u043D\u043A"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_GROUND_06
+      TermType: 0
+      Description: 
+      Languages:
+      - Artillery
+      - "\u0410\u0440\u0442\u0438\u043B\u043B\u0435\u0440\u0438\u044F"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_GROUND_07
+      TermType: 0
+      Description: 
+      Languages:
+      - Mobile launcher
+      - "\u0421\u0417\u0420\u041A"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_GROUND_08
+      TermType: 0
+      Description: 
+      Languages:
+      - Helicopter with machine guns
+      - "\u0412\u0435\u0440\u0442\u043E\u043B\u0451\u0442 \u0441 \u043F\u0443\u043B\u0435\u043C\u0451\u0442\u0430\u043C\u0438"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_GROUND_09
+      TermType: 0
+      Description: 
+      Languages:
+      - Helicopter with missiles
+      - "\u0412\u0435\u0440\u0442\u043E\u043F\u043B\u0430\u043D \u0441 \u0440\u0430\u043A\u0435\u0442\u0430\u043C\u0438"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_AIR_00
+      TermType: 0
+      Description: 
+      Languages:
+      - Pilots
+      - "\u041F\u0438\u043B\u043E\u0442\u044B"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_AIR_02
+      TermType: 0
+      Description: 
+      Languages:
+      - Surveillance
+      - "\u041D\u0430\u0431\u043B\u044E\u0434\u0435\u043D\u0438\u0435 "
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_AIR_01
+      TermType: 0
+      Description: 
+      Languages:
+      - Ammo
+      - "\u041F\u0430\u0442\u0440\u043E\u043D\u044B"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_AIR_03
+      TermType: 0
+      Description: 
+      Languages:
+      - Reconnaissance
+      - "\u0420\u0430\u0437\u0432\u0435\u0434\u043A\u0430"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_AIR_04
+      TermType: 0
+      Description: 
+      Languages:
+      - Helicopters
+      - "\u0412\u0435\u0440\u0442\u043E\u043B\u0435\u0442\u044B"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_AIR_05
+      TermType: 0
+      Description: 
+      Languages:
+      - Attack Aircrafts
+      - "\u0428\u0442\u0443\u0440\u043C\u043E\u0432\u0438\u043A\u0438"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_AIR_06
+      TermType: 0
+      Description: 
+      Languages:
+      - Fighter planes
+      - "\u0418\u0441\u0442\u0440\u0435\u0431\u0438\u0442\u0435\u043B\u0438"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_AIR_07
+      TermType: 0
+      Description: 
+      Languages:
+      - Ballistic missiles
+      - "\u0411\u0430\u043B\u043B\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435
+        \u0440\u0430\u043A\u0435\u0442\u044B"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_AIR_08
+      TermType: 0
+      Description: 
+      Languages:
+      - Bombers
+      - "\u0411\u043E\u043C\u0431\u0430\u0440\u0434\u0438\u0440\u043E\u0432\u0449\u0438\u043A\u0438"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_AIR_09
+      TermType: 0
+      Description: 
+      Languages:
+      - Nuclear deterrence Level
+      - "\u0423\u0440\u043E\u0432\u0435\u043D\u044C \u044F\u0434\u0435\u0440\u043D\u043E\u0433\u043E
+        \u0441\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u043D\u0438\u044F"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_NAVY_00
+      TermType: 0
+      Description: 
+      Languages:
+      - Sailors
+      - "\u041C\u043E\u0440\u044F\u043A\u0438"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_NAVY_01
+      TermType: 0
+      Description: 
+      Languages:
+      - Ammo
+      - "\u041F\u0430\u0442\u0440\u043E\u043D\u044B"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_NAVY_02
+      TermType: 0
+      Description: 
+      Languages:
+      - Patrol boats
+      - "\u041F\u0430\u0442\u0440\u0443\u043B\u044C\u043D\u044B\u0435 \u043A\u0430\u0442\u0435\u0440\u044B"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_NAVY_03
+      TermType: 0
+      Description: 
+      Languages:
+      - Ships
+      - "\u041A\u043E\u0440\u0430\u0431\u043B\u0438"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_NAVY_04
+      TermType: 0
+      Description: 
+      Languages:
+      - Ballistic missiles
+      - "\u0411\u0430\u043B\u043B\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435
+        \u0440\u0430\u043A\u0435\u0442\u044B"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_NAVY_05
+      TermType: 0
+      Description: 
+      Languages:
+      - Submarines
+      - "\u041F\u043E\u0434\u0432\u043E\u0434\u043D\u044B\u0435 \u043B\u043E\u0434\u043A\u0438"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_NAVY_06
+      TermType: 0
+      Description: 
+      Languages:
+      - Aircraft Carriers
+      - "\u0410\u0432\u0438\u0430\u043D\u043E\u0441\u0446\u044B"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_NAVY_07
+      TermType: 0
+      Description: 
+      Languages:
+      - Warships
+      - "\u0412\u043E\u0435\u043D\u043D\u044B\u0435 \u043A\u043E\u0440\u0430\u0431\u043B\u0438"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_NAVY_08
+      TermType: 0
+      Description: 
+      Languages:
+      - Destroyer
+      - "\u042D\u0441\u043C\u0438\u043D\u0435\u0446"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_NAVY_09
+      TermType: 0
+      Description: 
+      Languages:
+      - Nuclear deterrence Level
+      - "\u0423\u0440\u043E\u0432\u0435\u043D\u044C \u044F\u0434\u0435\u0440\u043D\u043E\u0433\u043E
+        \u0441\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u043D\u0438\u044F"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_RESISTANCE_00
+      TermType: 0
+      Description: 
+      Languages:
+      - Spread Propaganda
+      - "\u0420\u0430\u0441\u043F\u0440\u043E\u0441\u0442\u0440\u0430\u043D\u0438\u0442\u044C
+        \u043F\u0440\u043E\u043F\u0430\u0433\u0430\u043D\u0434\u0443"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_RESISTANCE_01
+      TermType: 0
+      Description: 
+      Languages:
+      - Provide Financial Aid
+      - "\u041E\u043A\u0430\u0437\u0430\u043D\u0438\u0435 \u0444\u0438\u043D\u0430\u043D\u0441\u043E\u0432\u043E\u0439
+        \u043F\u043E\u043C\u043E\u0449\u0438"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ARMY_UPGRADE_RESISTANCE_02
+      TermType: 0
+      Description: 
+      Languages:
+      - Provide food
+      - "\u041E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u0435 \u0435\u0434\u043E\u0439"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: WINDOW_COUNTRY_INFO_HEADER
+      TermType: 0
+      Description: 
+      Languages:
+      - Info
+      - "\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044F"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: WINDOW_INTELLIGENCE_HEADER
+      TermType: 0
+      Description: 
+      Languages:
+      - Intelligence
+      - "\u0420\u0430\u0437\u0432\u0435\u0434\u043A\u0430"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: WINDOW_INTELLIGENCE_DESCRIPTION
+      TermType: 0
+      Description: 
+      Languages:
+      - Intelligence of the selected country
+      - "\u0420\u0430\u0437\u0432\u0435\u0434\u043A\u0430 \u0432\u044B\u0431\u0440\u0430\u043D\u043D\u043E\u0439
+        \u0441\u0442\u0440\u0430\u043D\u044B"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: BUTTON_YES
+      TermType: 0
+      Description: 
+      Languages:
+      - Yes
+      - "\u0414\u0430"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: WINDOW_INFO_ENEMY_COUNTRY_HEADER
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Country:'
+      - "\u0421\u0442\u0440\u0430\u043D\u0430:"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: WINDOW_INFO_ENEMY_COUNTRY_BUTTON_ATTACK
+      TermType: 0
+      Description: 
+      Languages:
+      - Attack!
+      - "\u0410\u0442\u0430\u043A\u0430!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: FACTORY_UPGRADE_00
+      TermType: 0
+      Description: 
+      Languages:
+      - Farm
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: FACTORY_UPGRADE_01
+      TermType: 0
+      Description: 
+      Languages:
+      - Sawmill
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: FACTORY_UPGRADE_02
+      TermType: 0
+      Description: 
+      Languages:
+      - Factory
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: FACTORY_UPGRADE_03
+      TermType: 0
+      Description: 
+      Languages:
+      - Bank
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: FACTORY_UPGRADE_04
+      TermType: 0
+      Description: 
+      Languages:
+      - Wonder
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    CaseInsensitiveTerms: 0
+    OnMissingTranslation: 1
+    mTerm_AppName: 
+    mLanguages:
+    - Name: English
+      Code: en
+      Flags: 0
+    - Name: Russian
+      Code: ru
+      Flags: 1
+    IgnoreDeviceLanguage: 0
+    _AllowUnloadingLanguages: 0
+    Google_WebServiceURL: 
+    Google_SpreadsheetKey: 
+    Google_SpreadsheetName: 
+    Google_LastUpdatedVersion: 
+    Google_Password: change_this
+    GoogleUpdateFrequency: 3
+    GoogleInEditorCheckFrequency: 2
+    GoogleUpdateSynchronization: 1
+    GoogleUpdateDelay: 0
+    Assets: []
+    Spreadsheet_LocalFileName: 
+    Spreadsheet_LocalCSVSeparator: ','
+    Spreadsheet_LocalCSVEncoding: utf-8
+    Spreadsheet_SpecializationAsRows: 1
+    Spreadsheet_SortRows: 1

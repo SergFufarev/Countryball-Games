@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6585852480552907964
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1263811952841754630}
+  - component: {fileID: 5719268481190147256}
+  m_Layer: 5
+  m_Name: FlyUIHandful
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1263811952841754630
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6585852480552907964}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -73, y: 273}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5719268481190147256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6585852480552907964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5295c3c5e820f48948c62c37f33b38f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flyUiPrefab: {fileID: 8155020350514646262, guid: 96a9ff0de7aaa493bafb250143b13297, type: 3}
+  heightCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 3.290031
+      outSlope: 3.290031
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.6036161
+    - serializedVersion: 3
+      time: 0.5
+      value: 1
+      inSlope: 0.0025445947
+      outSlope: 0.0025445947
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.9968564
+      outWeight: 0.51554006
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -3.328486
+      outSlope: 1.2521468
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0.59805286
+      outWeight: 0.21601655
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

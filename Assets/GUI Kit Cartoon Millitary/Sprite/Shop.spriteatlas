@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shop
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 24c088b57402a4500b8e6f34458526d7, type: 3}
+    totalSpriteSurfaceArea: 1153260
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 6b449d91cd5ae496ebb49842573bf0f2, type: 3}
+  - {fileID: 21300000, guid: 4663207283e714ba39f42af6d44084cb, type: 3}
+  - {fileID: 21300000, guid: 3ec8e5d344e3240f8a020053ab9cda8d, type: 3}
+  - {fileID: 21300000, guid: a7f0c064df7cb44ecba7e027e14ff28f, type: 3}
+  - {fileID: 21300000, guid: f1dd0a64cec9e4b42a0468bc39737798, type: 3}
+  - {fileID: 21300000, guid: bf2addd4c5cbc44f89d4f0aede6d8d4a, type: 3}
+  - {fileID: 21300000, guid: 63d2ac357194b4743ac6fbc9cce65496, type: 3}
+  - {fileID: 21300000, guid: d6743066d1e5843cfbd666043b29b62d, type: 3}
+  - {fileID: 21300000, guid: 49f84e68ae04e49db816ead5831ed0a3, type: 3}
+  - {fileID: 21300000, guid: e615bb3ee1406463e80819fabf7ffb9d, type: 3}
+  - {fileID: 21300000, guid: 283a954edeabf4a19b1edbc53605832d, type: 3}
+  - {fileID: 21300000, guid: c809a36f2642b49d7abd1e0a02042263, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - frame_coin_03
+  - frame_coin_05
+  - icon_sale
+  - icon_coin_01
+  - frame_coin_01
+  - icon_coin_05
+  - title_text_store
+  - frame_coin_02
+  - icon_coin_04
+  - frame_coin_04
+  - icon_coin_03
+  - icon_coin_02
+  m_Tag: Shop
+  m_IsVariant: 0

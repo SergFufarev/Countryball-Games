@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d5f2d44be0dd814ca078c077e842080, type: 3}
+  m_Name: Factory
+  m_EditorClassIdentifier: 
+  localisationKey: UPGRADE_FACTORY_LABEL_HEADER
+  UpgradeType: 5
+  UpgradeDataList:
+  - Description: FACTORY_UPGRADE_00
+    Icon: {fileID: 21300000, guid: 4d4def54f3e1c6247b27758d440b6dec, type: 3}
+    Cost: 10
+    AmountLevels: 5
+    CurrentLevel: 0
+    EffectPerLevel: 0.2
+  - Description: FACTORY_UPGRADE_01
+    Icon: {fileID: 21300000, guid: 2d968524bda6ed54997b8a4e44bed231, type: 3}
+    Cost: 20
+    AmountLevels: 5
+    CurrentLevel: 0
+    EffectPerLevel: 0.2
+  - Description: FACTORY_UPGRADE_02
+    Icon: {fileID: 21300000, guid: 3b38be541c8d6ed439a98dd1e162e9a7, type: 3}
+    Cost: 30
+    AmountLevels: 5
+    CurrentLevel: 0
+    EffectPerLevel: 0.2
+  - Description: FACTORY_UPGRADE_03
+    Icon: {fileID: 21300000, guid: 2890c3ec7c936834c8e6b3882cfe5d56, type: 3}
+    Cost: 40
+    AmountLevels: 5
+    CurrentLevel: 0
+    EffectPerLevel: 0.2
+  - Description: FACTORY_UPGRADE_04
+    Icon: {fileID: 0}
+    Cost: 5000
+    AmountLevels: 1
+    CurrentLevel: 0
+    EffectPerLevel: 5
+  UpgradeDataListRegionVariant:
+  - Description: FACTORY_UPGRADE_00
+    Icon: {fileID: 21300000, guid: 4d4def54f3e1c6247b27758d440b6dec, type: 3}
+    Cost: 10
+    AmountLevels: 5
+    CurrentLevel: 0
+    EffectPerLevel: 0.2
+  - Description: FACTORY_UPGRADE_01
+    Icon: {fileID: 21300000, guid: 2d968524bda6ed54997b8a4e44bed231, type: 3}
+    Cost: 20
+    AmountLevels: 5
+    CurrentLevel: 0
+    EffectPerLevel: 0.2
+  - Description: FACTORY_UPGRADE_02
+    Icon: {fileID: 21300000, guid: 3b38be541c8d6ed439a98dd1e162e9a7, type: 3}
+    Cost: 30
+    AmountLevels: 5
+    CurrentLevel: 0
+    EffectPerLevel: 0.2
+  - Description: FACTORY_UPGRADE_03
+    Icon: {fileID: 21300000, guid: 2890c3ec7c936834c8e6b3882cfe5d56, type: 3}
+    Cost: 40
+    AmountLevels: 5
+    CurrentLevel: 0
+    EffectPerLevel: 0.2
+  - Description: FACTORY_UPGRADE_04
+    Icon: {fileID: 0}
+    Cost: 5000
+    AmountLevels: 1
+    CurrentLevel: 0
+    EffectPerLevel: 5

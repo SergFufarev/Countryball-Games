@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6038f982efd346ec91b34d22424b913, type: 3}
+  m_Name: SoundConfig
+  m_EditorClassIdentifier: 
+  soundDatas:
+  - clip: {fileID: 8300000, guid: ffb159a21c8a04135a5616979c828fab, type: 3}
+    type: 0
+    volume: 0.5
+    canMultiply: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 52320e590bf774734a288886eba557ba, type: 3}
+    type: 1
+    volume: 0.509
+    canMultiply: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 7bef0064f8567430cac22499c6b93d4f, type: 3}
+    type: 2
+    volume: 0.5
+    canMultiply: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 015d28ccb3f226d42ade69f40bcb2b22, type: 3}
+    type: 3
+    volume: 0.05
+    canMultiply: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 621a95b31c5614d4783bb7723a4cbd3b, type: 3}
+    type: 4
+    volume: 0.2
+    canMultiply: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 3d93967e7c8b6074bb7f2d8a552c4fd7, type: 3}
+    type: 5
+    volume: 0.3
+    canMultiply: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 217e2630b8bc89f42a70caca388ec39b, type: 3}
+    type: 6
+    volume: 0.5
+    canMultiply: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: ad0506cfecb0a414b8574b73c8b14999, type: 3}
+    type: 7
+    volume: 0.5
+    canMultiply: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: c691a76e49173bc41bcfe719da50090d, type: 3}
+    type: 8
+    volume: 0.3
+    canMultiply: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 80c498132b41d424fa587d355d9ef65c, type: 3}
+    type: 9
+    volume: 0.3
+    canMultiply: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 8d92e5f3c8d20cc48ae6ba5362849109, type: 3}
+    type: 10
+    volume: 0.3
+    canMultiply: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 136af546441ec4c4a905fd947098eefc, type: 3}
+    type: 11
+    volume: 0.3
+    canMultiply: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 1907dc21046a0c94087ed3985fe81fd2, type: 3}
+    type: 12
+    volume: 0.5
+    canMultiply: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 60d84a5decd4e024f9efa69dbc015afb, type: 3}
+    type: 13
+    volume: 0.7
+    canMultiply: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: b8c15363b9604d644a8056c6207c960d, type: 3}
+    type: 14
+    volume: 1
+    canMultiply: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 33f1e04c349220045819cccd10767aac, type: 3}
+    type: 15
+    volume: 1
+    canMultiply: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 6bc87ceb11a50e146a485c4e4e218a1d, type: 3}
+    type: 16
+    volume: 1
+    canMultiply: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 55bf88faaab587d4fbef29e995ceee4c, type: 3}
+    type: 17
+    volume: 0.5
+    canMultiply: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: e8bd0fb4c23f2584f9fcafab6b8e50e7, type: 3}
+    type: 18
+    volume: 1
+    canMultiply: 0
+    loop: 0
+  musicDatas:
+  - clip: {fileID: 8300000, guid: 27ed4d8dd32354599bb329b9a84ab671, type: 3}
+    volume: 1
+    loop: 1
+    type: 0
+    name: Main
+  - clip: {fileID: 8300000, guid: 0ab09574c2ccf564c8f9a69662ecfd1a, type: 3}
+    volume: 1
+    loop: 1
+    type: 1
+    name: Battle
+  timeClear: 1
+  timeMusicChange: 1

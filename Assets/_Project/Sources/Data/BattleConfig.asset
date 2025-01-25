@@ -1,0 +1,216 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97eaaa083e5504323bca200274e77667, type: 3}
+  m_Name: BattleConfig
+  m_EditorClassIdentifier: 
+  _moveSpeed: 5
+  battleDuration: 5
+  _bombForce: 10
+  _bombSpeed: 5
+  _bombSkipRecoverCost: 100
+  enemyAttackPeriod:
+    hours: 0
+    minutes: 5
+    seconds: 0
+  revoltPeriod:
+    hours: 0
+    minutes: 4
+    seconds: 0
+  enemyMutualAttacksPeriod:
+    min:
+      hours: 0
+      minutes: 2
+      seconds: 30
+    max:
+      hours: 0
+      minutes: 5
+      seconds: 0
+  battleAlertTime:
+    hours: 0
+    minutes: 2
+    seconds: 0
+  bombRecoverTime:
+    hours: 1
+    minutes: 0
+    seconds: 0
+  unitDatas:
+    keyValues:
+    - key: 0
+      value:
+        icon: {fileID: 21300000, guid: 87ab25a62d0299e43b7f934b84dcaf53, type: 3}
+        name: Infantry
+        hp: 200
+        attackSpeed: 2.4
+        damage: 2
+        attentionDistance: 10
+        attackDistance: 3.7
+        squadSize: 5
+        moveSpeed: 0.9
+        bulletType: 0
+        description: The only thing scarier than what they do to enemies is what
+          happens to a series of countryball games.
+    - key: 1
+      value:
+        icon: {fileID: 21300000, guid: 384716ba6d05c8e4fab5f0e446e4ea23, type: 3}
+        name: Snipers
+        hp: 150
+        attackSpeed: 1.8
+        damage: 25
+        attentionDistance: 10
+        attackDistance: 7.2
+        squadSize: 4
+        moveSpeed: 0.9
+        bulletType: 1
+        description: They feel better in the rear. "People declare war. But it is
+          the countryballs that must fight and die."
+    - key: 2
+      value:
+        icon: {fileID: 21300000, guid: 05af333d700d89d40b98661aae4b7213, type: 3}
+        name: Mortar mans
+        hp: 170
+        attackSpeed: 1.2
+        damage: 50
+        attentionDistance: 10
+        attackDistance: 4.5
+        squadSize: 4
+        moveSpeed: 0.9
+        bulletType: 2
+        description: Attacks by area. "We will avenge Drawball"
+    - key: 3
+      value:
+        icon: {fileID: 21300000, guid: 77e9f18495aadc441bfd2f984179b2ec, type: 3}
+        name: Hummer
+        hp: 600
+        attackSpeed: 2.4
+        damage: 10
+        attentionDistance: 10
+        attackDistance: 3
+        squadSize: 1
+        moveSpeed: 0.9
+        bulletType: 1
+        description: 'Killed in the last battle: 20 units of military equipment,
+          300 people and a hummer driver.'
+    - key: 4
+      value:
+        icon: {fileID: 21300000, guid: d9a4f819ff167b14d8a45f458ec4cb63, type: 3}
+        name: APC
+        hp: 1100
+        attackSpeed: 1.8
+        damage: 25
+        attentionDistance: 10
+        attackDistance: 5
+        squadSize: 1
+        moveSpeed: 0.9
+        bulletType: 0
+        description: '"My APC  is magnificent and powerful and huge-ish. And... stalled."'
+    - key: 5
+      value:
+        icon: {fileID: 21300000, guid: 8a303da374ae1d94b949537e6e9fc850, type: 3}
+        name: Tank
+        hp: 1600
+        attackSpeed: 1.2
+        damage: 50
+        attentionDistance: 10
+        attackDistance: 4.8
+        squadSize: 1
+        moveSpeed: 0.9
+        bulletType: 3
+        description: Why do all tanks look different, and all country balls look
+          the same?
+    - key: 6
+      value:
+        icon: {fileID: 21300000, guid: 375b5475fc0f58f469be0376c7c2a421, type: 3}
+        name: Artillery
+        hp: 200
+        attackSpeed: 1.2
+        damage: 50
+        attentionDistance: 10
+        attackDistance: 6.7
+        squadSize: 1
+        moveSpeed: 0.9
+        bulletType: 2
+        description: Attacks by area. "A trained gunner can demolish an entire building.
+          And an untrained whole city."
+    - key: 7
+      value:
+        icon: {fileID: 21300000, guid: de596aaa045597a41b4b388a0ae5dbc1, type: 3}
+        name: Mobile launcher
+        hp: 800
+        attackSpeed: 0.8
+        damage: 50
+        attentionDistance: 10
+        attackDistance: 7.5
+        squadSize: 1
+        moveSpeed: 0.9
+        bulletType: 4
+        description: 'The largest affected area. "Eh, now I would like a game of
+          Country Balls: World War"'
+    - key: 8
+      value:
+        icon: {fileID: 21300000, guid: 39bcdca74c9e1584f92231ddc4ec7278, type: 3}
+        name: Helicopter with machine guns
+        hp: 800
+        attackSpeed: 2.8
+        damage: 25
+        attentionDistance: 10
+        attackDistance: 6
+        squadSize: 1
+        moveSpeed: 0.9
+        bulletType: 0
+        description: A countryball that is afraid of heights is much more dangerous
+          than a pigeon.
+    - key: 9
+      value:
+        icon: {fileID: 21300000, guid: e9ffd18990192104baeaa76f6add67f2, type: 3}
+        name: Helicopter with missiles
+        hp: 1400
+        attackSpeed: 2
+        damage: 50
+        attentionDistance: 10
+        attackDistance: 7
+        squadSize: 1
+        moveSpeed: 0.9
+        bulletType: 5
+        description: Attacks by area. "The use of a helicopter with missiles is officially
+          recognized as cheating."
+    - key: 10
+      value:
+        icon: {fileID: 21300000, guid: 3331f465be4f8fc49a87f580e9b5e555, type: 3}
+        name: Rebels
+        hp: 400
+        attackSpeed: 2
+        damage: 10
+        attentionDistance: 10
+        attackDistance: 2
+        squadSize: 4
+        moveSpeed: 1
+        bulletType: 0
+        description: Sponsors the rebels in the country you are going to invade -
+          they perfectly absorb the first damage.
+  rocketData:
+    icon: {fileID: 21300000, guid: e383d024d53197c4fa536b3001a19908, type: 3}
+    name: Rockets
+    cost: 50
+    damage: 250
+    description: You can buy as many rockets as you want, but only 3 are carried
+      into battle.
+    radius: 1
+  buildingDatas:
+    keyValues:
+    - key: 0
+      value:
+        hp: 2500
+        shootDistanceMultiplier: 2
+    - key: 1
+      value:
+        hp: 750
+        shootDistanceMultiplier: 1.3
